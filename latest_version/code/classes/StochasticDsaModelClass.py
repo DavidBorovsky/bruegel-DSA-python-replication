@@ -46,7 +46,7 @@ class StochasticDsaModel(DsaModel):
                 adjustment_start_year=2025, # start year of linear spb_bca adjustment
                 ageing_cost_period=10, # number of years for ageing cost adjustment
                 shock_sample_start=2000, # start year of shock sample
-                stochastic_start_year=None, # start year of stochastic projection period
+                stochastic_start_year=2024, # start year of stochastic projection period
                 shock_frequency='quarterly', # start year of stochastic simulation
                 fiscal_multiplier=0.75, 
                 growth_policy=False, # Growth policy counterfactual 
